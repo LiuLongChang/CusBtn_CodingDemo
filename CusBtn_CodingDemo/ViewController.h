@@ -7,8 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Project.h"
+#import "Coding_NetAPIManager.h"
+
+@class Login;
 
 @interface ViewController : UIViewController
+
+
+@property(nonatomic,strong)Login * myLogin;
+
+@property(nonatomic,strong)Project * myProject;
+
+
 
 
 @end
